@@ -1,0 +1,22 @@
+static void Main(string[] args)
+        {
+            comparison(52, 107);
+
+            Console.ReadKey();
+        }
+        
+        static void comparison(int number,int number1)
+        {
+            if (number > number1)
+            {
+                Console.WriteLine("Number is the bigger!");
+            }
+            else if(number<number1)
+            {
+                Console.WriteLine("Number1 is the bigger! ");
+            }
+            else
+            {
+                Console.WriteLine("Numbers are the same");
+            }
+        }
