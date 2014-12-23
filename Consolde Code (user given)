@@ -1,0 +1,28 @@
+static void Main(string[] args)
+        {
+            Console.Write("Enter first number :");
+            int n1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your second number :");
+            int n2 = Convert.ToInt32(Console.ReadLine());
+
+            compare(n1, n2);
+
+
+            Console.ReadKey();
+        }
+
+
+        static void compare(int no1, int no2)
+        {
+            if (no1 > no2)
+            {
+                Console.WriteLine("First one is bigger!");
+            }
+            else if (no2 > no1)
+            {
+                Console.WriteLine("Second one is bigger!");
+            }
+            else
+            {
+                Console.WriteLine("Numbers are the same!!!");
+            }
